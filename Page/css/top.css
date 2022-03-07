@@ -1,0 +1,93 @@
+*{
+	margin: 0px;
+}
+html,body{
+	height:100%;
+}
+#topbg{
+	position: relative;
+	background-color: #ffffff;
+	width: 100%;
+	height: 50px;
+	border-bottom: 2px solid #f10214;
+	box-shadow: 1px 1px 6px #888888;
+	z-index: 2;
+}
+#JDimg{
+	position: absolute;
+	left:11.5%;
+	top:9.5px;
+	width:100px;
+}
+#search{
+	padding: 0px;
+	position: relative;
+	display: inline-block;
+	top:7px;
+	left: 27%;
+	border: 2px solid #F10214;
+	box-sizing: border-box;
+	width: 550px;
+	height: 36px;
+}
+/* 想让点击输入时无边框 */
+#search #input{
+	position: absolute;
+	left:3%;
+	padding:0px;
+	top:3.5px;
+	border: 1px solid rgb(0,0,0,0);
+	width:400px;
+	height:25px;
+	color: #c5c5c5;
+	font-size: 13px;
+}
+#search #camera{
+	background-image: url(../img/Camera1.png);
+	position: absolute;
+	right: 73px;
+	top:6px;
+	height: 70%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#search #camera:hover{
+	background-image: url(../img/Camera2.png);
+}
+#search #span{
+	position: absolute;
+	display: inline-block;
+	right: -2px;
+	width: 65px;
+	height: 105%;
+	background-color: #F10214;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 33px;
+	font-weight: 600;
+	font-family: "微软雅黑";
+}
+#search #span:hover{
+	background-color: #cf0015;
+}
+#shop{
+	position: absolute;
+	display: inline-block;
+	left: 65%;
+	border: 1px solid #e2e2e2;
+	background-color: #FFFFFF;
+	width: 100px;
+	height: 32px;
+	top:9px;
+}
+#shop>span{
+	position: absolute;
+	color: #F10214;
+	font-size: 13px;
+	line-height: 32px;
+	left: 16px;
+}
+#shop:hover{
+	border: 1px solid #F10214;
+}

@@ -1,0 +1,7 @@
+#main{
+	position: absolute;
+	height: calc(100% - 52px);
+	width: 100%;
+	background-color: #f1f1f1;
+	z-index: 1;
+}

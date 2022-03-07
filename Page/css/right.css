@@ -1,0 +1,38 @@
+#right{
+	position: fixed;
+	top:92px;
+	right: 10%;
+	width: 58px;
+	height: 423px;
+	background-color: #FFFFFF;
+}
+ul{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	width: 58px;
+	height: 420px;
+}
+li{
+	position: relative;
+	top: 3px;
+	bottom: 5px;
+	text-align: center;
+	line-height: 27px;
+	width: 58px;
+	height: 60px;
+	font-size: 15px;
+	box-sizing: border-box;
+	border-bottom:1px solid #E2E2E2 ;
+	font-weight: 500;
+	color: #2d2d2d;
+}
+img{
+	position: relative;
+	width:24px;
+	top:10px;
+}
+li:hover{
+	background-color: #d40113;
+	color: #ffffff;
+}
