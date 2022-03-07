@@ -6,3 +6,23 @@
 	height:340px;
 	background-color: #FFFFFF;
 }
+#main02>#left{
+	position: relative;
+	text-align: center;
+	height: 270px;
+	width: 250px;
+	display: inline-block;
+	top:55px;
+	left: 15px;
+	background-color: #fdfdf6;
+	float:left;
+}
+#main02>#aright{
+	position: relative;
+	text-align: center;
+	top:30px;
+	height: 300px;
+	width: 250px;
+	display: inline-block;
+	float:right;
+}

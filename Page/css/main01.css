@@ -30,3 +30,25 @@
 	right: 20px;
 	color: #888888;
 }
+#main01 #left{
+	position: absolute;
+	left:15px;
+	bottom:15px;
+	height:250px;
+	width:170px;
+	background-color: #f8f8f8;
+}
+#main01 #right{
+	position: absolute;
+	left:210px;
+	bottom:15px;
+	height:250px;
+	width:320px;
+
+}
+#main01 #right>div{
+	position: relative;
+	height: 110px;
+	width: 100%;
+	text-align: center;
+}
